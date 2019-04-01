@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vinyl Store</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://image.freepik.com/darmowe-psd/winylu-psd-ikona-nagrywania_30-1865.jpg">
+
+<!--custom stylesheet-->
+<link rel="stylesheet" href="src/navigation.css">
+<link rel="stylesheet" href="src/main.css">
+<link rel="stylesheet" href="src/hero.css">
+<link rel="stylesheet" href="src/services.css">
+<link rel="stylesheet" href="src/footer.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+</head>
+<body>  
+    
+    <nav class="navigation">
+        <img class="logo" src="http://www.berlinervinylwerk.de/wp-content/uploads/2018/02/1517448244748.png" alt="logo">
+        <ul class="navigation-links">
+            <li class="link-wrapper"><a href="/#home">Home</a></li>
+            <li class="link-wrapper"><a href="about_us.html">About us</a></li>
+            <li class="link-wrapper"><a href="vinyl_store.html">Vinyl Store</a></li>
+            <li class="link-wrapper"><a href="contact_us.html">Contact us</a></li>
+            <li class="link-wrapper"><a href="/library.html">Your library</a></li>
+
+        </ul>
+        <!-- THIS IS MENU TOGGLE-->
+        
+        <div class="menu">
+            <input type="checkbox" name="menu-toggle" class="menu-toggle">
+
+            <span class="menu--hamburger-bar"> </span>
+            <span class="menu--hamburger-bar"> </span>
+            <span class="menu--hamburger-bar"> </span>
+
+            <ul class="navigation--hidden-menu">
+                    <li class="link-wrapper"><a href="/#home">Home</a></li>
+                    <li class="link-wrapper"><a href="about_us.html"About us></a></li>
+                    <li class="link-wrapper"><a href="vinyl_store.html">Vinyl Store</a></li>
+                    <li class="link-wrapper"><a href="contact_us.html">Contact us</a></li>
+                    <li class="link-wrapper"><a href="/library.html">Your library</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero--wrapper">
+            <div class="hero--content">
+            <h1>VINYL</h1>
+        </div>
+        </div>
+    </section>
+
+         
+    <section class="services">
+        <div class="services--card">
+<h2 class="title">Artists</h2>
+<h3>The best artists in the world</h3>
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div class="carousel-inner">
+    <ul class="services--list">
+        <div class="carousel-item active">  
+    <li class="services--list-item">
+        <img src="https://www.rewirefestival.nl/wp-content/images/3047_1200_.png" class="position-static" alt="ZimpelZiolek">
+        <h4>Zimpel i Ziolek</h4>
+        <p>Wacław Zimpel and Kuba Ziołek are two of the most celebrated and prolific Polish artists of the younger generation.</p>
+    </li>
+    </div>
+    <div class="carousel-item services--list-item">
+    <li>
+        <img src="https://lastfm-img2.akamaized.net/i/u/ar0/2c00e533e5dfc36fd8085070a791428b.jpg" 
+        class="position-static" alt="LonkerSee">
+        <h4>Lonker See</h4>
+        <p>Lonker See to projekt, który zaczął swoją działalność jako ambientowy duet Bartosza Boro Borowskiego i Joanny Kucharskiej, znanych z 1926 czy Kiev Office.</p>
+
+    </li></div>
+    <div class="carousel-item">
+    <li class="services--list-item">
+        <img src="http://s3.amazonaws.com/quietus_production/images/articles/23560/mrkb001_1510249371.jpg" 
+        class="position-static" alt="Markbeh">   
+        <h4>Merkabah</h4>
+        <p>Merkabah is a three-piece band founded at the end of 2007 in Warsaw, Poland.</p>
+
+    </li>
+    </div>
+</ul>
+</div>
+<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </section>
+    <footer class="footer">
+        <ul class="icon--list">
+            <li>
+                <span class="icon--wrapper">
+                    <i class="fab fa-facebook"></i>
+
+                </span></li>
+            <li>
+                <span class="icon--wrapper">
+                        <i class="fab fa-twitter"></i>
+
+                </span></li>
+            <li>
+                <span class="icon--wrapper">
+                        <i class="fab fa-snapchat"></i>
+
+                </span></li>
+            <li>
+                <span class="icon--wrapper">
+                        <i class="fab fa-twitch"></i>
+
+                </span></li>
+        </ul>
+        <p>Created by KasiaBukowska</p>
+    </footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
