@@ -1,0 +1,13 @@
+:root {
+    --main-dark-color: #0B2027;
+    --lightBlue-color: #48E5C2;
+    --blue-color: #0E79B2;
+    --grey-color: #605F5E;
+    --lightGrey-color: #E2E2E2;
+}
+
+html, body, ul, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Aclonica', sans-serif;
+}

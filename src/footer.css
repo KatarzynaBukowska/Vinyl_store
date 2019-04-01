@@ -1,0 +1,33 @@
+.footer {
+    padding: 56px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: azure;
+    flex-direction: column;
+}
+
+.icon--list {
+display: flex;
+list-style: none;
+width: 80%;
+max-width: 300px;
+justify-content: space-between;
+}
+
+.icon--list li:nth-child(-n+2){ 
+    /* -n+2 oznacza 2 pierwsze ikony */
+    color: dodgerblue;
+}
+
+.icon--list li:nth-child(3) {
+    color: yellow;
+}
+.icon--list li:nth-child(4) {
+    color: blueviolet;
+}
+
+.icon--wrapper {
+    font-size: 48px;
+    
+}

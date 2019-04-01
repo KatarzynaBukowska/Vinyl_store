@@ -1,0 +1,23 @@
+.hero {
+    background-image: url("https://f00.esfr.pl/foto/3/819665408/bdbace56097de754b77f8fecce8963a6/denon-dp-300f-czarny,819665408_5.jpg");
+    height: 200vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero--wrapper {
+    border: 10px solid var(--blue-color);
+    text-transform: uppercase;
+    padding: 50px;
+    margin: 8px;
+    max-width: 720px;
+}
+
+.hero--content{
+    color: var(--grey-color);
+    
+}

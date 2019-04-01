@@ -1,0 +1,21 @@
+:root {
+    --main-dark-color: #0B2027;
+    --lightBlue-color: #48E5C2;
+    --blue-color: #0E79B2;
+    --grey-color: #605F5E;
+    --lightGrey-color: #E2E2E2;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+}
+
