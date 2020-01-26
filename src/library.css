@@ -11,13 +11,3 @@ section {
     border-bottom: 2px solid white;
 }
 
-p {
-    color: white;
-    margin-right: 2em;
-}
-
-button {
-    background-color: violet;
-    border: 1px solid greenyellow;
-    border-radius: 8px;
-}
